@@ -1,0 +1,42 @@
+# Homework 1
+print(10 * '*', 'N1', 10 * '*')
+number = int(input('Enter three-digit number: '))
+a = number // 100
+b = number // 10 % 10
+c = number % 10
+print('Sum of digits: ', a + b + c)
+print(10 * '*', 'N2', 10 * '*')
+print('Enter the legs of right triangle')
+h = int(input('h = '))
+w = int(input('w = '))
+print('Triangle area: ', 0.5 * h * w)
+print(10 * '*', 'N3', 10 * '*')
+a1 = int(input('a1 = '))
+a2 = int(input('a2 = '))
+n = int(input('n = '))
+d = a2 - a1
+an = a1 + (n - 1) * d
+print('a(n) = ', an)
+print(10 * '*', 'N4', 10 * '*')
+year = int(input('Year: '))
+print('Century: ', (year + 99) // 100)
+print(10 * '*', 'N5', 10 * '*')
+print('Enter number of Coca-Cola cans')
+n1 = int(input('n1 = '))
+n2 = int(input('n2 = '))
+count_of_all_cans = n1 + n2 - 1
+print('First man missed cans number: ', count_of_all_cans - n1)
+print('Second man missed cans number: ', count_of_all_cans - n2)
+print(10 * '*', 'N6', 10 * '*')
+print('Enter coordinates of cell')
+px = int(input('px = '))
+py = int(input('py = '))
+print("Knight's possible moves")
+print('move1: ', px - 2, py + 1)
+print('move2: ', px - 2, py - 1)
+print('move3: ', px - 1, py + 2)
+print('move4: ', px - 1, py - 2)
+print('move5: ', px + 1, py + 2)
+print('move6: ', px + 1, py - 2)
+print('move7: ', px + 2, py + 1)
+print('move8: ', px + 2, py - 1)
